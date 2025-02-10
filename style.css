@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(pic.jpg);
+    background-position: center;
+    background-size: cover;
+   
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+  
+  .logo{
+    font-size: 6rem;
+    color: rgb(243, 241, 241);
+}
+.logo:hover{
+    cursor: default;
+    
+}
+.h1{
+    text-align: center;
+    padding-top: 0rem;
+   padding-bottom: 2rem;
+   font-size: 70px;
+   color: #f2f3f0;
+    
+    
+    justify-items: center;
+}
+
+.container {
+    padding: 9rem;
+    display: grid;
+    
+    text-align: center;
+    position: relative;
+    
+}
+#start,#stop,#reset
+{
+  text-align: center;
+}
+
+  .time {
+   
+    font-size: 10rem;
+    text-align: center;
+  }
+
+  h1,
+  p {
+    color: #f2f3f0;
+
+  }
+  .cont{
+    padding: 3rem;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 1100px;
+    padding-left: 30rem;
+    justify-content: center;
+    display: flex;
+    gap: 1rem ;
+  }
+
+  button {
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 50px;
+    border:  solid ;
+    box-sizing: border-box;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: none;
+    gap: 2rem;
+  }
+
+  button:hover {
+    background-color: grey;
+    
+  }
